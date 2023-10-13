@@ -45,7 +45,6 @@ const UpdatePasswordPage = () => {
         </Link>
       </ul>
       <div className="tab-content mt-2">
-        <p>Update password Page</p>
         <UpdatePassword />
       </div>
     </div>
