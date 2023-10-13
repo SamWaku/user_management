@@ -5,6 +5,9 @@ import LoginPage from "./pages/login";
 import RegisterPage from "./pages/register";
 import UserHomePage from "./pages/userHome";
 import AdminHomePage from "./pages/adminHome";
+import UpdateDetailsPage from "./pages/updateDetails";
+import UpdatePasswordPage from "./pages/updatePassword";
+import UserDetails from "./pages/userDetails";
 
 const AppRouter = createBrowserRouter([
   {
@@ -26,6 +29,18 @@ const AppRouter = createBrowserRouter([
   {
     path: "/admin",
     element: <AdminHomePage />,
+  },
+  {
+    path: "/user/updateDetails",
+    element: <UpdateDetailsPage />,
+  },
+  {
+    path: "/user/updatePassword",
+    element: <UpdatePasswordPage />,
+  },
+  {
+    path: "/user/personalDetails",
+    element: <UserDetails />,
   },
 ]);
 
